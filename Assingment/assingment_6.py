@@ -6,15 +6,15 @@ print("1. 'Add task'")
 print("2. 'update task'")
 print("3. 'delete task'")
 
-task_name = input("Enteer the task name : ")
+task_name = input("Enteer the task1 name : ")
 task[task_id] = task_name
 print(f"Task added with id : {task_id}")
 task_id+= 1
-task_name = input("Enteer the task name : ")
+task_name = input("Enteer the task2 name : ")
 task[task_id] = task_name
 print(f"Task added with id : {task_id}")
 task_id+= 1
-task_name = input("Enteer the task name : ")
+task_name = input("Enteer the task3 name : ")
 task[task_id] = task_name
 print(f"Task added with id : {task_id}")
 
