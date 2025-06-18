@@ -97,11 +97,11 @@
 #     count-=1
 
 
-# 10. Write a function that asks for user input using input() inside a while loop until a valid age (>0) is entered, then returns the age
-def valid_age():
+# # 10. Write a function that asks for user input using input() inside a while loop until a valid age (>0) is entered, then returns the age
+# def valid_age():
 
-  while True:
-    age = int(input("Enter your valid age to exit"))
-    if age>0:
-     return age
-print(valid_age())    
+#   while True:
+#     age = int(input("Enter your valid age to exit"))
+#     if age>0:
+#      return age
+# print(valid_age())    
